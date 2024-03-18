@@ -26,7 +26,7 @@ build() {
   export CGO_CFLAGS="${CFLAGS}"
   export CGO_CXXFLAGS="${CXXFLAGS}"
   export CGO_LDFLAGS="${LDFLAGS}"
-  export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw -tags=next"
+  export GOFLAGS="-buildvcs=false -buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw -tags=next"
 
   go build -o build .
 }
