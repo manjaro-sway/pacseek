@@ -2,4 +2,5 @@
 _extends: manjaro-contrib/.github
 repository:
   homepage: https://aur.archlinux.org/pacseek.git
+  topics: arch, package, x86-64, aarch64
 # you can extend settings using https://probot.github.io/apps/settings/
